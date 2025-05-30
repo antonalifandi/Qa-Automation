@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gem 'cucumber'
+gem 'selenium-webdriver', '~> 4.10.0'
+gem 'webdrivers', '~> 5.3'
+gem 'base64', require: 'base64'
+gem 'win32ole'
+gem 'fiddle'
+gem 'logger'
+gem 'parallel_tests'
+gem 'rspec-expectations'

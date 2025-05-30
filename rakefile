@@ -1,0 +1,6 @@
+require 'cucumber/rake/task'
+
+task :rake_automation_parallel_run do
+  sh "parallel_cucumber features/ -n 4 --test-options \"--format pretty --tags \\\"not @wip\\\" --format html --out report.html\""
+end
+
