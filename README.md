@@ -24,21 +24,14 @@ bundle install
 ```bash
 cucumber
 ```
+### Atau:
+```bash
+bundle exec cucumber
+```
 
 ### Jalankan test secara paralel:
 ```bash
 bundle exec rake rake_automation_parallel_run
 ```
 
-## 📦 Struktur Project
-.
-├── features/
-│ ├── login.feature # Skenario login
-│ ├── google_search.feature # Skenario Google search
-│ └── step_definitions/
-│ ├── login_steps.rb
-│ └── google_steps.rb
-├── Gemfile # Dependency Ruby
-├── Rakefile # Task parallel cucumber
-├── report.html # (jika sudah menjalankan parallel run)
-└── README.md
+© 2025 Anton Alifandi. All rights reserved.
